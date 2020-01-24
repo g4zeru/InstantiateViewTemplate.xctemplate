@@ -37,8 +37,6 @@
 			<string>The name of the view controller to create</string>
 			<key>Type</key>
 			<string>text</string>
-			<key>Default</key>
-			<string>ViewController</string>
 			<key>NotPersisted</key>
 			<true/>
 		</dict>
