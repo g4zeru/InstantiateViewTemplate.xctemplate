@@ -13,4 +13,8 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___, Reusabl
 
         // Configure the view for the selected state
     }
+
+    func inject(_ dependency: <#Dependency#>) {
+        // Configure the view for the generated state
+    }
 }

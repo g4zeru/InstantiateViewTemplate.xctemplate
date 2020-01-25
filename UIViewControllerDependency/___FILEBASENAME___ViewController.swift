@@ -9,4 +9,8 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viewClass___, StoryboardInstan
         super.viewDidLoad()
         // Do view setup here.
     }
+
+    func inject(_ dependency: <#Dependency#>) {
+        // Configure the view for the generated state
+    }
 }
