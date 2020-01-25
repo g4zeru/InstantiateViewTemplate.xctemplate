@@ -46,13 +46,11 @@
 			<key>Identifier</key>
 			<string>viewClass</string>
 			<key>Required</key>
-			<string>YES</string>
+			<true/>
 			<key>Name</key>
 			<string>Subclass of:</string>
 			<key>Description</key>
 			<string>What class to subclass in the new file</string>
-			<key>Default</key>
-			<string>UIViewController</string>
 			<key>Type</key>
 			<string>popup</string>
 			<key>Values</key>
@@ -60,6 +58,7 @@
 				<string>UIViewController</string>
 				<string>UITableViewCell</string>
 				<string>UICollectionViewCell</string>
+				<string>UICollectionReusableView</string>
 			</array>
 			<key>Suffixes</key>
 			<dict>
@@ -69,7 +68,25 @@
 				<string>TableViewCell</string>
 				<key>UICollectionViewCell</key>
 				<string>CollectionViewCell</string>
+				<key>UICollectionReusableView</key>
+				<string>ReusableView</string>
 			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>Dependency</string>
+			<key>Name</key>
+			<string>Also add &quot;inject dependency template&quot;</string>
+			<key>Description</key>
+			<string>Need to pass an instance when generating the view?</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>RequiredOptions</key>
+			<true/>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<true/>
 		</dict>
 	</array>
 </dict>
