@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___.swift</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
@@ -57,6 +55,7 @@
 				<string>UITableViewCell</string>
 				<string>UICollectionViewCell</string>
 				<string>UICollectionReusableView</string>
+				<string>UIView</string>
 			</array>
 			<key>Suffixes</key>
 			<dict>
@@ -68,6 +67,8 @@
 				<string>CollectionViewCell</string>
 				<key>UICollectionReusableView</key>
 				<string>ReusableView</string>
+				<key>UIView</key>
+				<string>View</string>
 			</dict>
 		</dict>
 		<dict>
